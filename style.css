@@ -1,0 +1,276 @@
+
+/* 
+@font-face {
+  font-family: Agrandir;
+  src: url(fonts/Agrandir-C3-Regular.otf) format("opentype");
+  font-family: Agrandirw;  
+  src: url(fonts/Agrandir-D7-WideBlack.otf) format("opentype");
+} */
+
+
+/*<---------HIGHLIGHT COLOR-------->*/
+::selection {
+  background: gold;
+}
+::-moz-selection {
+  background: gold;
+}
+p.yellow::-moz-selection {
+  background: #fff2a8;
+}
+
+
+
+
+body{
+  margin:0;
+  width: 100vw; 
+  background-color: white;
+}
+
+
+/*<---------INTRO-------->*/
+
+
+      /*<---------FIXED NAV-------->*/
+
+.topnav{
+   background-color: white;
+   height: 75px;
+   width: 99%;
+   z-index: 5;
+   position: relative;
+   position: fixed;
+}
+
+h2{
+   /* font-size: calc(0.05em + 1vw);
+   line-height: calc(0.25em + 1vw); */
+   font-size: 1.2rem;
+   line-height: 1.2rem;
+   font-family: 'Space Grotesk', sans-serif;
+   font-weight: 300;
+}
+
+.fixednav{
+   position: absolute;
+   position: fixed;
+   z-index: 10;
+   top:3%;
+   right: 4rem;
+   color:rgb(222, 222, 222);
+}
+
+.fixed{
+   margin-left: 4rem;
+   display: inline-block;
+}
+
+#resume.fixed{
+   margin-left: 0rem;
+}
+
+#resume.fixed:hover{
+   color:black;
+   cursor: pointer;
+   transform: translateY(-5px);
+   border-bottom: 3px dotted; 
+}
+
+#contact.fixed:hover{
+   color:black;
+   cursor: pointer;
+   transform: translateY(-5px);
+   border-bottom: 3px dotted; 
+
+}
+
+#linkedin.fixed:hover{
+   color:black;
+   cursor: pointer;
+   transform: translateY(-5px);
+   border-bottom: 3px dotted; 
+
+}
+
+
+      /*<---------TEXT-------->*/
+.introduction {
+  /* font-size: calc(3em + 1vw);
+  line-height: calc(0.95em + 1vw); */
+  font-size: 3.5rem;
+  line-height: 4.8rem;
+  /* font-family: Agrandir, 'Noto Sans', sans-serif; */
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 300;
+  width: 65vw;
+  padding-left: 2.5rem;
+  padding-top: calc(3.5em + 1vw);
+}
+
+.RISDlogo{
+  position: absolute;
+  margin-left: 65%;
+  margin-top: -25%;
+  visibility: hidden;
+}
+
+.S{
+  display: inline-block
+}
+.S:hover{
+/* font-family: Agrandirw; */
+
+font-family: 'Space Grotesk', sans-serif;
+font-weight: 700;
+transform: translateY(-5px);
+}
+.sally:hover{
+  cursor: url("img/cursor/Eyes-Emojii.png"), auto;
+}
+.sally:active{
+  cursor: url("img/cursor/wink.png"), auto;
+}
+.branding{
+  cursor: url("img/cursor/search.png"), auto;
+  
+}
+.ui{
+  cursor: url("img/cursor/search.png"), auto;
+}
+
+a{
+   text-decoration: none;
+}
+a:hover{
+   cursor: url("img/cursor/pencil.png"), auto;
+}
+a:visited{
+   color: black;
+}
+
+
+
+
+
+/*<---------WORK-------->*/
+.container-portfolio{
+   display: flex;
+   flex-wrap: wrap;
+   width: 95vw;
+   height: 90vh;
+   /* background-color: red; */
+   margin: auto;
+   margin-top: 20%;
+}
+.container-work{
+   padding: 5px;
+   display: inline-block;
+   position: relative;
+   width: 550px;
+   height: 575px;
+   /* background-color: blue; */
+   margin: auto;
+   margin-top: 100px;
+}
+
+.caption{
+   position: absolute;
+   color:rgb(222, 222, 222);
+   bottom: 10px;;
+   /* font-size: calc(0.1em + 1vw);
+   line-height: calc(0.35em + 1vw); */
+   font-size: 1rem;
+   /* font-family: Agrandir, 'Noto Sans', sans-serif; */
+   font-family: 'Space Grotesk', sans-serif;
+   font-weight: 300;
+   margin: 0;
+   /* cursor: pointer; */
+     left: 10px;
+}
+
+
+.dontfeedcap{
+   
+}
+
+
+/* .caption:hover{
+   color: black;
+} */
+
+/*<---------DONT FEED THE BIRDS-------->*/
+.dontfeed{
+  position: absolute;
+  top: 55%;
+  left: 10px;
+  z-index: 2;
+  cursor: url("img/cursor/dontfeedcursor.png"), auto;
+}
+.stopicon{
+  position: absolute;
+  padding-right: 10px;
+  top: 5%;
+  right: 0%;
+  cursor: url("img/cursor/dontfeedcursor.png"), auto;
+  transition: transform 0.1s;
+}
+.dontfeed:active{
+  cursor: url("img/cursor/dontfeedclick.png"), auto;
+}
+.stopicon:active{
+  cursor: url("img/cursor/dontfeedclick.png"), auto;
+}
+.stopicon:hover{
+  transform: rotate(2deg);
+}
+
+.dontfeedcont{
+   width: 560px;
+   height: 585px;
+   /* background-color: pink; */
+   left: 0%;
+   position: absolute;
+   top:0%;
+   display: inline-block;
+   position: absolute;
+}
+
+/* .dontfeedcont:hover{
+   transform: translateY(-5px); 
+   border: 4px solid;
+} */
+
+
+/*<---------MONA-------->*/
+
+.letter{
+  position: absolute;
+  right: 0%;
+  top: 15%;
+}
+.monalogo{
+  position: absolute;
+  bottom: 20%;
+  z-index: 2;
+  filter: grayscale(95%);
+  opacity: 0.8;
+  cursor: url("img/cursor/monagreen.png"), auto;
+}
+.letter:hover{
+  transform: rotate(-2deg);
+  cursor: url("img/cursor/monagreen.png"), auto;
+}
+.letter:active{
+  cursor: url("img/cursor/monaorange.png"), auto;
+}
+.monalogo:hover{
+filter: grayscale(2%);
+opacity: 1;
+}
+.monalogo:active{
+  cursor: url("img/cursor/monaorange.png"), auto;
+}
+
+
+/*<---------NOPO-------->*/
