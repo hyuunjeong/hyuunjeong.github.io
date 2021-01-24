@@ -29,12 +29,10 @@ body{
 }
 
 
-/*<---------INTRO-------->*/
 
+/*<---------TOP FIXED NAV-------->*/
 
-      /*<---------FIXED NAV-------->*/
-
-.topnav{
+.topnav{        /*<---------TOP FIXED NAV background white-------->*/
    background-color: white;
    height: 75px;
    width: 99%;
@@ -44,8 +42,6 @@ body{
 }
 
 h2{
-   /* font-size: calc(0.05em + 1vw);
-   line-height: calc(0.25em + 1vw); */
    font-size: 1.2rem;
    line-height: 1.2rem;
    font-family: 'Space Grotesk', sans-serif;
@@ -93,6 +89,8 @@ h2{
 
 }
 
+
+/*<---------INTRO-------->*/
 
       /*<---------TEXT-------->*/
 .introduction {
