@@ -139,18 +139,41 @@ transform: translateY(-5px);
   cursor: url("img/cursor/search.png"), auto;
 }
 
-a{
+.RISD a{
    text-decoration: none;
 }
-a:hover{
+.RISD a:hover{
    cursor: url("img/cursor/pencil.png"), auto;
 }
-a:visited{
+.RISD a:visited{
    color: black;
 }
 
 
+/*<---------WORK NAV-------->*/
+.worknav li{
+   list-style-type: none;
+   display: inline-block;
+   font-family: 'Space Grotesk', sans-serif;
+   font-weight: 300;
+   margin-right: 30px;
+   margin-top: 5%;
+   font-size: 1.5rem;
+}
 
+.worknav a{
+   text-decoration: none;
+}
+
+.worknav a:hover{
+   cursor: pointer;
+   transform: translateY(-5px);
+   border-bottom: 3px dotted; 
+}
+
+.worknav a:visited{
+   color: black;
+}
 
 
 /*<---------WORK-------->*/
@@ -161,7 +184,7 @@ a:visited{
    height: 90vh;
    /* background-color: red; */
    margin: auto;
-   margin-top: 20%;
+   margin: 4%;
 }
 .container-work{
    padding: 5px;
@@ -171,7 +194,7 @@ a:visited{
    height: 575px;
    /* background-color: blue; */
    margin: auto;
-   margin-top: 100px;
+   margin-bottom: 50px;
 }
 
 .caption{
@@ -188,16 +211,6 @@ a:visited{
    /* cursor: pointer; */
      left: 10px;
 }
-
-
-.dontfeedcap{
-   
-}
-
-
-/* .caption:hover{
-   color: black;
-} */
 
 /*<---------DONT FEED THE BIRDS-------->*/
 .dontfeed{
@@ -225,29 +238,13 @@ a:visited{
   transform: rotate(2deg);
 }
 
-.dontfeedcont{
-   width: 560px;
-   height: 585px;
-   /* background-color: pink; */
-   left: 0%;
-   position: absolute;
-   top:0%;
-   display: inline-block;
-   position: absolute;
-}
-
-/* .dontfeedcont:hover{
-   transform: translateY(-5px); 
-   border: 4px solid;
-} */
-
-
 /*<---------MONA-------->*/
 
 .letter{
   position: absolute;
   right: 0%;
   top: 15%;
+  margin-right: 5px;
 }
 .monalogo{
   position: absolute;
