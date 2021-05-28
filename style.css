@@ -212,6 +212,8 @@ height: 100px;;
         opacity: 60%;
        border-radius: 25px;
        text-align: center;
+       margin-left: 35px;
+       
 
 }
 
@@ -250,5 +252,5 @@ h2{
    margin-top: 0px;
    width: 7%;
    right:20%;
-   margin-top: -5%;
+   /* margin-top: -5%; */
 }
