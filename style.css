@@ -160,25 +160,30 @@ h1{
 .a-postit{
   text-decoration:none;
   color:#000;
-  background:#ffc;
+  background: rgb(102, 102, 102);
   display:block;
   height:10em;
   width:10em;
   padding:1em;
-  box-shadow: 5px 5px 7px rgba(33,33,33,.7);
   z-index: 5;
   position: absolute;
   margin-left: auto;
   margin-right: auto;
   left: 0;
   right: 0;
+  border: white;
 }
+
+.a-postit:hover{
+     box-shadow: 4px 4px 5px white;
+}
+
 
 #sticky{
    font-family: myFirstFont;
    font-size: 0.7rem;
-    background:#ffc;
-   
+    background:rgb(102, 102, 102);
+    color: white;
 }
 
 
@@ -195,7 +200,8 @@ height: 100px;;
 }
 
 .key{
-   width: 75vh;
+   width: 90vh;
+   margin-top: 0px;
 }
 
 .send{
@@ -206,6 +212,7 @@ height: 100px;;
         opacity: 60%;
        border-radius: 25px;
        text-align: center;
+
 }
 
 .send:hover{
@@ -213,3 +220,35 @@ height: 100px;;
 
 }
 
+
+h2{
+   font-size: 20px;
+   padding: 5px;
+   margin-top: 8%;
+   width: 100%;
+   width:170px;
+   padding-left: 35px;
+   text-align: center;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+#instructions{   
+   background-color: black;
+    font-family: myFirstFont;
+    color: white;
+   font-size: 15px;
+}
+
+.instructions{
+   padding-left: 35px;
+}
+
+
+.down-arrow{
+   position: absolute;
+   margin-top: 0px;
+   width: 7%;
+   right:20%;
+   margin-top: -5%;
+}
